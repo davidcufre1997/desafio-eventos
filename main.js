@@ -1,7 +1,7 @@
 let btnRegistrar=document.getElementById("registrar");
 btnRegistrar.addEventListener("click", verificar);
 //profe si dejo habilitado el preventDefault la pagina no funciona, por eso lo deje asi como esta//
-function verificar(){
+function verificar(e){
    e.preventDefault();
     let nombre=document.getElementById("nombre").value;
     let contraseña=document.getElementById("contra").value;
